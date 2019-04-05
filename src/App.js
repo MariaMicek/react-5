@@ -1,15 +1,9 @@
 import React from 'react'
-import ButtonGreen from './ButtonGreen';
-import ButtonYellow from './ButtonYellow';
-import ButtonRed from './ButtonRed';
-import MUIButton from './MUIButton';
+// import Buttons from './Buttons';
 
 const App = () => (
     <div>
-        <ButtonGreen />
-        <ButtonYellow />
-        <ButtonRed />
-        <MUIButton />
+        {/* <Buttons /> */}
     </div>
 )
 

@@ -11,8 +11,7 @@ export class User {
     }
 }
 
-
-const loadUsers = () => JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []
+export const loadUsers = () => JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []
 
 export const saveUser = (user) => {
     const currentUsers = loadUsers()
@@ -26,7 +25,7 @@ export const saveUser = (user) => {
 
 export const deleteUser = (uuid) => {
     const currentUsers = loadUsers()
-    const newUsers = currentUsers.filter((user) => user.uui !== uuid)
+    const newUsers = currentUsers.filter((user) => user.uuid !== uuid)
 
     localStorage.setItem(
         LOCAL_STORAGE_KEY,

@@ -1,8 +1,10 @@
 import React from 'react'
+import { buttonRed } from './ButtonRed.module.css'
+import { button } from './Buttons.module.css'
 
 const ButtonRed = () => (
     <div
-        className={'jfddl7-button'}
+        className={buttonRed + ' ' + button}
     >
         ButtonRed
     </div>

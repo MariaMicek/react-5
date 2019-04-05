@@ -1,12 +1,11 @@
 import React from 'react'
-// import style from'./ButtonGreen.module.css'         //import domyślny
-import {jfddl7Button} from'./ButtonGreen.module.css'    //import nazwany, znajduje nazwę klasy
+import { buttonGreen } from './ButtonGreen.module.css'
+import { button } from './Buttons.module.css'
+
 
 const ButtonGreen = () => (
     <div
-        // className={style['jfddl7Button']}  
-        // className={style.jfddl7Button}
-        className={jfddl7Button}
+        className={buttonGreen + ' ' + button}
     >
         ButtonGreen
     </div>

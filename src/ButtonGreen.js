@@ -1,11 +1,13 @@
 import React from 'react'
-import { buttonGreen } from './ButtonGreen.module.css'
-import { button } from './Buttons.module.css'
-
+import { button, buttonGreen } from './buttons.styles.js'
 
 const ButtonGreen = () => (
     <div
-        className={buttonGreen + ' ' + button}
+        style={{
+            ...button,
+            ...buttonGreen,
+        }}
+        // style={Object.assign({}, button, buttonGreen)}
     >
         ButtonGreen
     </div>

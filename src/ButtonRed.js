@@ -1,7 +1,9 @@
 import React from 'react'
 
 const ButtonRed = () => (
-    <div>
+    <div
+        className={'jfddl7-button jfddl7-button__red'}
+    >
         ButtonRed
     </div>
 )
